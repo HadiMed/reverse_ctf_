@@ -7,4 +7,4 @@ Structure of the functions :
 
 <br/>
 
-<img src="ghidra.png"/> 
+<img src="They are many/ghidra.png"/> 
