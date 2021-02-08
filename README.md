@@ -9,9 +9,9 @@ Structure of the functions :
 
 <img src="They are many/ghidra.png"/> 
 
-2 -<b>" Exe inside elf " </b><br/> a x64 elf file  that have a lot of blocks to check each caracter , using the ghidra api to extract all data that is used on the checks . 
+2 -<b>" Exe inside elf " </b><br/> a x64 elf file<a href="Exe inside elf/executable"> Executable here </a>  that have a lot of blocks to check each caracter , using the ghidra api to extract all data that is used on the checks . 
 structure of blocks : 
 <br/>
 <img src="Exe inside elf/ghidra1.png ">
 
-we find that the input is a PE file base64 encoded after decoding it , we find that it basicly does the same thing but the number of blocks is much lesser than the first one , using the ghidra decompiler , i copied all the checks and made it much cleaner .
+we find that the input is a PE file base64 encoded ,after decoding it  we find that it basicly does the same thing but the number of blocks is much lesser than the first one , using the ghidra decompiler , i copied all the checks and made it much cleaner .
