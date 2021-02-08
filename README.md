@@ -1,6 +1,6 @@
 # Write_ups 
 
-1 - "  They are many " , ctf in Cybertalents website link : https://cybertalents.com/challenges/malware/they-are-many
+1 -<b> "  They are many " </b>, ctf in Cybertalents website link : https://cybertalents.com/challenges/malware/they-are-many
 after looking at the disassembly like the description claims  there are a lot of  functions that have the same structure the same size and does the same thing.   using the ghidra API to extract the pre-defined data and emulating the instructions of the function to get the flag .  
  
 Structure of the functions :
@@ -9,7 +9,7 @@ Structure of the functions :
 
 <img src="They are many/ghidra.png"/> 
 
-2 - a x64 elf file  that have a lot of blocks to check each caracter , using the ghidra api to extract all data that is used on the checks . 
+2 -<b>Exe inside elf </b> a x64 elf file  that have a lot of blocks to check each caracter , using the ghidra api to extract all data that is used on the checks . 
 structure of blocks : 
 <br/>
 <img src="Exe inside elf/ghidra1.png ">
