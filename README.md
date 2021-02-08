@@ -10,7 +10,7 @@ Structure of the functions :
 <img src="They are many/ghidra.png"/> 
 
 2 - a x64 elf file  that have a lot of blocks to check each caracter , using the ghidra api to extract all data that is used on the checks . 
-2 types of blocks : 
+structure of blocks : 
 <br/>
 <img src="Exe inside elf/ghidra1.png ">
 
