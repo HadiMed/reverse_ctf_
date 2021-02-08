@@ -37,10 +37,9 @@ while opiter.hasNext() :
 		i=0
 	
 		
-print(XOR2[:100])
+
 
 	
-print(len(XOR1)-len(XOR2))
 
 	
 output = "" 
