@@ -1,7 +1,7 @@
 import ghidra.program.database.mem.MemoryBlockDB
 
 
-#Extracting addresses of blocks that contains the spaces wich we will calculate their lenght 
+#Extracting addresses of blocks that contains 0x20
 
 arr=[]
 
