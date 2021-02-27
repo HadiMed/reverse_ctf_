@@ -139,7 +139,7 @@ for x in adresses:
 	count = -1 
 	result = 1
 	_address= int(x,16)
-	while result!=0 :
+	while result!=0 : # looking for the end of the block
 		result= getByte(toAddr(_address))
 		count+=1
 		_address+=1
