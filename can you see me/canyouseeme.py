@@ -95,8 +95,41 @@ arr.append('8C')
 arr.append('04')
 arr.append('08')
 adresses = [] 
+
+
+
+
 for x in range(0,len(arr),4) :
     adresses.append(arr[x+3]+arr[x+2]+arr[x+1]+arr[x])
+#addresses:
+
+#0x08048630
+#0x08048698
+#0x0804870C
+#0x08048630
+#0x08048774
+#0x080487D4
+#0x08048854
+#0x080488C0
+#0x08048698
+#0x08048930
+#0x08048854
+#0x0804899C
+#0x08048A04
+#0x08048774
+#0x08048A80
+#0x08048AE4
+#0x080488C0
+#0x08048B4C
+#0x08048B4C
+#0x0804899C
+#0x08048BB0
+#0x08048C24
+
+
+
+
+
 size_of_blocks=[]
 
 
@@ -115,23 +148,31 @@ for x in adresses:
 # Emulating The Program 
 
 seed = 0x30433E9
-def randoo():
+
+def random():
     global seed 
     seed = seed + 1 
     return ( seed  * 0x49 ) % 0x16 
 
 
 counter = 0
+
 flag = [0 for x in range(22)] 
+
 another_counter=0
 visited = [0 for x in range(22)]
+
 while(counter < 23) :
-    ran=randoo()
-    if visited[ran]==0 :
-        visited[ran]=1
-        flag[ran]=size_of_blocks[counter]
-        another_counter+=1
-    counter+=1
+    
+	ran=random()
+	
+	if visited[ran]==0 :
+        	visited[ran]=1
+        	
+		flag[ran]=size_of_blocks[counter]
+        	
+		another_counter+=1
+    	counter+=1
 
 print(''.join([chr(x) for x in flag]))
 
