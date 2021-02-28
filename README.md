@@ -17,3 +17,6 @@ structure of blocks :
 we find that the input is a PE file base64 encoded ,after decoding it  we find that it basicly does the same thing but the number of blocks is much lesser than the first one , using the ghidra decompiler , i copied all the checks and made it much cleaner .
 
 3 -<b>"Can you see me" link : https://cybertalents.com/challenges/malware/can-you-see-me </b>
+
+
+4 - kill joy challenge on the mini ctf in cyer talents week 4 ,  it uses TEA algorithm to encrypt the input with a hardcoded key and compare it to a hardcoded password , that password is the flag . 
