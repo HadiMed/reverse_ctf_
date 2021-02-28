@@ -19,4 +19,4 @@ we find that the input is a PE file base64 encoded ,after decoding it  we find t
 3 -<b>"Can you see me" link : https://cybertalents.com/challenges/malware/can-you-see-me </b>
 
 
-4 - kill joy challenge on the mini ctf in cyer talents week 4 ,  it uses TEA algorithm to encrypt the input with a hardcoded key and compare it to a hardcoded password , that password is the flag . 
+4 - <b>KILLJOY</b> challenge on the mini ctf in cyer talents week 4 ,  it uses TEA algorithm to encrypt the input with a hardcoded key and compare it to a hardcoded password , that password is the flag . 
