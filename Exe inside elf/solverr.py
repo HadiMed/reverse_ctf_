@@ -14,7 +14,7 @@ XOR2=[]
 count = False
 i=0
 while opiter.hasNext() : 
-	# extracting data from all function disassembly 
+	# extracting data from all the functions disassembly 
         # Taking into account that some blocks doesnt have the same general structure 	
 	op=opiter.next()
 	
