@@ -22,3 +22,7 @@ we find that the input is a PE file base64 encoded ,after decoding it  we find t
 # KILLJOY
 
 4 - challenge on the mini ctf in cyer talents week 4 ,  it uses TEA algorithm to encrypt the input with a hardcoded key and compare it to a hardcoded password , that password is the flag . 
+
+# No Breakpoint
+
+5 - the executable uses an anti debugging technique , that checks if the code was modified so if we use software breakpoints , the hash algorithm will detect it and the result will be false 
