@@ -1,3 +1,5 @@
+# Decompiled function on the exe file from ghidra , after making the syntax okey for python 
+
 param_1 = ['' for x in range(0x2e0)] 
 
 
