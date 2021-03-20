@@ -26,3 +26,7 @@ we find that the input is a PE file base64 encoded ,after decoding it  we find t
 # No Breakpoint
 
 5 - the executable uses an anti debugging technique , that checks if the code was modified so if we use software breakpoints , the hash algorithm will detect it and the result will be false 
+
+# Rokai 
+
+6 -  Challenges at cyebertalents , link : https://hubchallenges.s3-eu-west-1.amazonaws.com/Reverse/Rokai492084659892759472878.apk , look writeup at : <a src="Rokai/README.md"> Writeup </a>
