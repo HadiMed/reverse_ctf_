@@ -21,9 +21,10 @@ This function tries to do a query to <b>content://com.rokai2.contentprovider/pwd
 <br/><br/>
 So this library is a C++ compiled Binary , this function is a bit  long , it s doing some binary operations with a hardcoded bytes array and the parameter passed to it  we can reverse this function and get our flag since we have the parameter passed ("Welocme1nCyb3rT4l3nt5") , or we can change the smali code by removing all that query content so that the function will not fail , this is how i changed the smali code in MainActivity$1 file : <br/> <br/>
 <img src="finalsmali.PNG"/> <br/> <br/>
-the I Compiled it with apktool , signed it with keytool and jarsigner install it on the emulator get the flag .<br/><br/>
+now it s just passing the Hardcoded string to the Native function and putting the result back on the textView . <br/>
+then I Compiled it with apktool , signed it with keytool and jarsigner install it on the emulator and get the flag .<br/><br/>
 Patched apk : <a href="patched.apk"> apk </a> 
 
 flag : <br/><br/>
 
-<img href="flag.PNG"> 
+<img src="flag.PNG"> 
