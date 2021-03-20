@@ -19,4 +19,7 @@ This function tries to do a query to <b>content://com.rokai2.contentprovider/pwd
 <br/> lets take a look at stringFromJNI (this function will be in the native library loaded ) : <br/><br/>
 <img src="idaoutputt.PNG"/>
 <br/><br/>
+So this library is a C++ compiled Binary , this function is a bit  long , it s doing some binary operations with a hardcoded bytes array and the parameter passed to it  we can reverse this function and get our flag since we have the parameter passed ("Welocme1nCyb3rT4l3nt5") , also we can change the smali code by removing all that query content so that the function will not fail , this is how i changed the smali code : <br/> <br/>
+<img src="finalsmali.PNG"/>
+
 
