@@ -11,7 +11,7 @@ nothing interesting at AndroidManifest  , lets look at smali files , the file Ma
 <img src="mainactivity.PNG"/>
 <br/>
 <br/>
-Then there is the MainActivity$1 that will include the main functionality of the applciation <br/>
+Then there is the MainActivity$1 that will include the main functionality of the application <br/>
 this is the ghidra Decompilation  : <br/><br/>
 <img src="ghidraoutput.PNG"/>
 <br/>
