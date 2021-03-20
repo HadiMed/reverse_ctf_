@@ -17,6 +17,6 @@ this is the ghidra Decompilation  : <br/><br/>
 <br/>
 This function tries to do a query to <b>content://com.rokai2.contentprovider/pwd</b>  to extract a a string <b>("Welocme1nCyb3rT4l3nt5")</b> from a column in a database then it will pass that string to the native function <b> stringFromJNI </b>  which will return the flag , the query will fail because there is no content://com.rokai2.contentprovider/pwd
 <br/> lets take a look at stringFromJNI (this function will be in the native library loaded ) : <br/><br/>
-<img src="idaoutput.PNG"/>
+<img src="idaoutputt.PNG"/>
 <br/><br/>
 
