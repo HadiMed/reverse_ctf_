@@ -1,4 +1,5 @@
 # Write up 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
 
 
 Lets start ,  opening our executable on IDA , after passing all the initialization code of the process this should be our "main" called in sub_10012FD <br/> <br/>
