@@ -8,7 +8,7 @@ This challenge will raise 43 euros for a good cause.</i> <br/>  <br/>
 
 so its an encryptor , the purpose is to decrypt the pdf encrypted with this program <br/>
 # Reversing
-diving into the executable , first its using a  <b>TLSCallback </b> (old anti debugging technique ) to execute the code before the entry point , it will try to load a ressource named (BIN ) from the ressource section and decrypt it with some shifting operations : <br/><br/>
+diving into the executable , first its using a  <b>TLSCallback </b> (old anti debugging technique ) to execute the code before the entry point , it will try to load a ressource named (BIN ) from the ressource section and unpack it with some shifting operations : <br/><br/>
 ```assembly
                mov     [r11+8], rbx
                 lea     r8, Type ; "BIN"
@@ -40,7 +40,7 @@ diving into the executable , first its using a  <b>TLSCallback </b> (old anti de
                 test    esi, esi
 ```
 <br/>
-this ressouce is a dll called XuTav.dll that contains the encyption function , the program will call <b> GetProcAddress </b> with the argument <b>EncryptFiles <b/> ,after that it will call the EncryptFiles to encrypt all files under <b> C:\Users\username\Docs\*  </b> , its using <b> AES-128 </b> with a key derived from a hash base data <br/> :
+this ressouce is a dll called <b> XuTav.dll</b> that contains the encyption function , the program will call <b> GetProcAddress </b> with the argument <b>EncryptFiles </b> ,after that it will call the EncryptFiles to encrypt all files under <b> C:\Users\username\Docs\*  </b> , its using <b> AES-128 </b> with a key derived from a hash base data <br/> :
   
 ```assembly 
 mov     r8, [rsp+140h+phHash]
