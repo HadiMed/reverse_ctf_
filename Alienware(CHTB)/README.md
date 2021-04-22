@@ -1,6 +1,6 @@
 # Write up 
 
-[![Maintenance](https://img.shields.io/badge/Hard-200points-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
+[![Maintenance](https://img.shields.io/badge/medium-325points-green.svg)](https://bitbucket.org/lbesson/ansi-colors)
 
 <b> Description :</b> <br/> 
 <i>We discovered this tool in the E.T. toolkit which they used to encrypt and exfiltrate files from infected systems. Can you help us recover the files?
