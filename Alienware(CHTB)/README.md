@@ -101,7 +101,7 @@ After that it will remove the old file "Confidential.pdf" and replace it with "C
 
 # Solver 
 
-Just using the API CryptDecrypt to recover the file 
+Just using the API CryptDecrypt to recover the file with the Hbase 
 
 ```c++
 #include <iostream>
