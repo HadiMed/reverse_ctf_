@@ -1,6 +1,6 @@
 ## Writeup
 - The methodology on analyzing a VM varies , depending on the VM but mainly it relies on understanding what the opcodes do , and find a way to emulate or monitor the behaviour of the VM using  DBI's for example , For me I tried to make a disassembler and an emulator to have an idea about the algorithm  .
-- Static analysis shows this VM uses 4 registers , and 8 operations (mov , add , not , syscall , jmp cond , mult , ,mov to add , add to add) those ops are well defined on the disasemlby to make the operations more understandable
+- Static analysis shows this VM uses 4 registers , and 8 operations (mov , add , not , syscall , jmp cond , mult , ,mov to add , add to add) those ops are well defined on the disassemlby to make the control flow more comprehensive
 - disassembly :
 
 ```
