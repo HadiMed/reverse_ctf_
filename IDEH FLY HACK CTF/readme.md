@@ -1,6 +1,6 @@
 ## Writeup
 
-***Since Almost Everything can be solved by flying , Coding a Fly Hack seems the best way to go***
+***Since Almost Everything can be solved by flying , Coding a Fly MODE seems the best way to go***
 
 - Function Responsible For Jumping : 
 
