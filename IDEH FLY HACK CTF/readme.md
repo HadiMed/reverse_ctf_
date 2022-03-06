@@ -15,5 +15,9 @@ i'll keep  incrementing Z which mean I keep Jumping <br/>
 
 - Use any DLL injector to inject the FLY MODE  , For Me I used this one  https://github.com/HadiMed/Dll_injector
 
-# Usage :
+## Usage :
   ```Inject.exe Ctf.exe Full_path_of_the_DLL_FROM_C_DRIVE```
+## ENABLE / DISABLE FLY :
+  SHIFT + TAB
+
+## The END
